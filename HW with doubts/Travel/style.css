@@ -1,0 +1,223 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@400;600;700&display=swap');
+
+body,
+html {
+    font-family: 'Smooch Sans', sans-serif;
+}
+
+.heading {
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.heading span {
+    background-image: linear-gradient(45deg,
+            #CA4246 16.666%,
+            #E16541 16.666%,
+            #E16541 33.333%,
+            #F18F43 33.333%,
+            #F18F43 50%,
+            #8B9862 50%,
+            #8B9862 66.666%,
+            #476098 66.666%,
+            #476098 83.333%,
+            #A7489B 83.333%);
+    ;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.container {
+    display: flex;
+    width: 90%;
+    height: 35vh;
+    margin: 0 auto;
+    border-top: 1px solid #333;
+    /* display: flex; */
+}
+
+.container img {
+    width: 250px;
+    height: 250px;
+    float: left;
+}
+
+.content {
+    /* display: flex; */
+    float: left;
+    border-bottom: 1px solid #333;
+    border-right: 1px solid #333;
+    width: 450px;
+    height: 250px;
+    /* padding-right: 40px; */
+}
+
+.destination-heading {
+    margin-top: -3px;
+    margin-left: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    font-weight: 600;
+    padding-right: 15px;
+    border-right: 1px solid #333;
+    /* border-bottom: 1px solid #333; */
+}
+
+.port {
+    margin-left: 10px;
+    margin-right: 45px;
+}
+
+.inclusion {
+    width: 280px;
+    margin-bottom: 60px;
+    border-right: 1px solid #333;
+}
+
+.inclusion i {
+    margin: 8px;
+}
+
+.inclusion i:nth-child(2) {
+    margin-left: 20px;
+}
+
+.sub-inclusion {
+    margin: 10px 0px 5px 0px;
+    /* font-weight: 100; */
+    font-size: 21px;
+    margin-left: 10px;
+}
+
+.border {
+    border-bottom: 1px solid #333;
+}
+
+.place {
+    margin-left: 10px;
+    margin-top: 15px;
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+
+/* Radio Button */
+.price-radio {
+    accent-color: blue;
+    /* background: red; */
+    width: 14%;
+    margin-top: 65px;
+    border-bottom: 1px solid #333;
+    margin-bottom: 1.2px;
+}
+
+.first-radio,
+.second-radio,
+.third-radio {
+    display: inline-block;
+    margin: 9px;
+    height: 15px;
+    width: 11px;
+    vertical-align: middle;
+}
+
+.first-radio {
+    margin-top: 4px;
+}
+
+.third-radio {
+    margin-bottom: 1px;
+}
+
+.block {
+    font-weight: 700;
+    display: block;
+    margin: 25px auto;
+}
+
+/* Button copy paste */
+/* From cssbuttons.io by @kirzin */
+button {
+    text-decoration: none;
+    position: absolute;
+    border: none;
+    font-size: 14px;
+    /* font-family: inherit; */
+    color: #fff;
+    width: 9em;
+    height: 3em;
+    line-height: 2em;
+    text-align: center;
+    background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+    background-size: 300%;
+    border-radius: 30px;
+    z-index: 1;
+    margin-left: -64px;
+}
+
+button:hover {
+    animation: ani 8s linear infinite;
+    border: none;
+}
+
+@keyframes ani {
+    0% {
+        background-position: 0%;
+    }
+
+    100% {
+        background-position: 400%;
+    }
+}
+
+button:before {
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    z-index: -1;
+    background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+    background-size: 400%;
+    border-radius: 35px;
+    transition: 1s;
+}
+
+button:hover::before {
+    filter: blur(20px);
+}
+
+button:active {
+    background: linear-gradient(32deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+}
+
+.price-view {
+    border-right: 1px solid #333;
+    border-left: 1px solid #333;
+    border-bottom: 1px solid #333;
+    height: 99%;
+    width: 20%;
+    padding-left: 13px;
+    padding-right: 13px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* text-align: center; */
+    display: flex;
+    font-size: 28px;
+}
+.margin{
+    margin-top: 18px;
+}
+.price-margin{
+    font-size: 36px;
+    font-weight: 600;
+}

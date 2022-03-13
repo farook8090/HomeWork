@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Css link -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Travel | Home Work</title>
+</head>
+
+<body>
+
+    <h1 class="heading"> <span>Travel</span> Without Trouble</h1>
+
+    <div class="container">
+        <div class="img">
+            <img src="1.jpg" alt="" srcset="">
+        </div>
+        <div class="content">
+            <div class="border">
+                <h2 class="destination-heading">Havelock Island Direct ( 3 Nights)</h2>
+                <a href="#" class="port">PortBlair 1 night</a>
+                <a href="#" class="havelock">HaveLock 2 night</a>
+            </div>
+            <div class="inclusion">
+                <h5 class="sub-inclusion">
+                    Inclusion
+                </h5>
+                <i class="fa fa-coffee" aria-hidden="true"></i>
+                <i class="fa fa-bed" aria-hidden="true"></i>
+                <i class="fa fa-binoculars" aria-hidden="true"></i>
+                <i class="fa fa-car" aria-hidden="true"></i>
+                <i class="fa fa-ship" aria-hidden="true"></i>
+            </div>
+
+            <p class="place">Places Covered</p>
+
+        </div>
+
+        <!-- Radio Button -->
+
+        <div class="price-radio">
+            <div class="block">
+                <input type="radio" name="price" class="first-radio" id="budget" value="rs.8000"
+                    onclick="changeprice(this.value)">
+                Budget
+            </div>
+            <div class="block">
+                <input type="radio" name="price" class="second-radio" id="standard" value="rs.10000"
+                    onclick="changeprice(this.value)">
+                Standard
+            </div>
+            <div class="block">
+                <input type="radio" name="price" class="third-radio" id="delux" value="rs.17500"
+                    onclick="changeprice(this.value)">
+                Delux
+            </div>
+        </div>
+
+
+        <!-- !Price display board. -->
+        <div class="price-view">
+            <div class="price-margin">
+                <span id="result"></span>
+            </div>
+            <div class="margin">
+                <button>View Details</button>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- !JS Script Adding -->
+    <script src="travel.js"></script>
+</body>
+
+</html>
