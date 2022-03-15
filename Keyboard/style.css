@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap");
+
+body {
+  background-color: #333;
+  /* font-family: "Saira Stencil One", sans-serif; */
+  font-family: "Saira Stencil One", cursive;
+}
+.heading {
+  color: #adc5cf;
+  font-size: 5.5rem;
+  font-weight: 700;
+  text-align: center;
+  margin: 10px 0px 25px 0px;
+}
+.container {
+  width: 95%;
+  height: 100%;
+  border-radius: 10px;
+  border: 2px solid #457896;
+  margin: 0px 26px;
+}
+.grid-container-1,
+.grid-container-2,
+.grid-container-3 {
+  display: grid;
+  grid-gap: 10.5px;
+  font-family: cursive;
+  font-size: 30px;
+  text-align: center;
+  margin: 0 auto;
+}
+.grid-item {
+  border-radius: 10px;
+  border: 10px solid;
+  border-image-slice: 1;
+  border-width: 5px;
+  border-image-source: linear-gradient(to left, #00c853, #b2ff59);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-family: monospace;
+  color: #fff;
+  font-family: "Saira Stencil One", cursive;
+}
+.grid-container-1 {
+  grid-template-columns: repeat(10, 80px);
+  grid-template-rows: repeat(1, 70px);
+  /* margin: 30px auto 0px 10px; */
+}
+.grid-container-2 {
+  grid-template-columns: repeat(9, 80px);
+  grid-template-rows: repeat(1, 70px);
+  margin-left: 30px;
+  margin-top: 20px;
+  /* margin: 10px auto 0px 50px; */
+}
+.grid-container-3 {
+  grid-template-columns: repeat(7, 70px);
+  grid-template-rows: repeat(1, 70px);
+  margin-left: 93px;
+  grid-gap: 19px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  /* margin: 10px auto 0px 165px; */
+}
+.grid-margin {
+  width: 64%;
+  margin: 0 auto;
+}
+
+/* Displaying of Big Alphabet */
+
+.display-container {
+  width: 50%;
+  height: 500px;
+  border-radius: 12px;
+  background-color: #f2ebc0;
+  margin: 0px auto;
+  margin: 15px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.display-container img {
+  width: 350px;
+  height: 300px;
+}
+#bigalphabet {
+  font-weight: 800;
+  font-family: "Saira Stencil One", monospace;
+  margin-bottom: 56px;
+}
+.font-size {
+  margin-bottom: 15px;
+  border: none;
+  font-size: 24.5rem;
+}
